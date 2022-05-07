@@ -54,8 +54,8 @@ class MarketContainer extends React.Component {
             this.props.myCoins[this.props.currentCoin.symbol] -= a
             this.props.myCoins[this.props.currentCoinVS] += Number(count)
             alert("Successfully!");
+            this.onPageChanged(this.props.currentCoin.name, this.props.currentCoinVS)
         }
-        this.onPageChanged(this.props.currentCoin.name, this.props.currentCoinVS)
     }
 
     render() {
