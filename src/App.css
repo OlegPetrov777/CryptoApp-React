@@ -1,0 +1,11 @@
+body {
+    background: #ffe8d6;
+    width: 100%;
+    height: 100vh;
+    /*background: url("./static/background.jpeg") center no-repeat;*/
+    /*background-size: 100%;*/
+}
+
+.block {
+    position: relative;
+}

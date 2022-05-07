@@ -1,0 +1,12 @@
+.coin_container {
+    margin: 0 15px;
+}
+
+.main_content {
+    margin-top: 15px;
+    display: flex;
+}
+
+.convert {
+    width: 25%;
+}

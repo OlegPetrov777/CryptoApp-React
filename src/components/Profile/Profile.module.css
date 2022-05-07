@@ -1,0 +1,13 @@
+.profile_container {
+    margin: 25px;
+}
+
+.main_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 15px;
+    width: 50%;
+    background-color: rgba(173, 173, 173, 0.63);
+}
